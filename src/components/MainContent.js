@@ -1,8 +1,8 @@
 import React from 'react';
 
-function App() {
+function MainContent() {
   return (
-    <div className="App">
+    <div className="main-content">
         <ul>
             <li>1</li>
             <li>2</li>
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default MainContent;
