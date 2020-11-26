@@ -1,13 +1,14 @@
 import React from 'react';
 
+import TodoItem from './TodoItem';
+
 function MainContent() {
   return (
     <div className="main-content">
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
     </div>
   );
 }
